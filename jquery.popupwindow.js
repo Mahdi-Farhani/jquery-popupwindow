@@ -21,7 +21,7 @@
     width:       500
   };
 
-  $.popupWindow = function(url, opts) {
+  $.fn.popupWindow = function(url, opts) {
     var options = $.extend({}, defaults, opts);
 
     // center the window
